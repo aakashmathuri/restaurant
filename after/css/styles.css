@@ -13,7 +13,7 @@ body {
 }
 #logo-img {
 	background: url('../images/aunt.jpeg') no-repeat;
-	width: 300px;
+	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
 }
@@ -31,6 +31,7 @@ body {
 	margin-bottom: 0;
 	line-height: .75;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
@@ -42,4 +43,73 @@ body {
 }
 .navbar-brand p span {
 	vertical-align: middle;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+
+}
+#phone div {
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width:1199px) {
+	/*Header*/
+	#logo-img {
+		background: url('') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 10px 10px 10px 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img {
+		height: 20px;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
 }
